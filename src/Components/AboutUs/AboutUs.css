@@ -1,0 +1,27 @@
+.about-us-main-heading{
+    font-family: Prosto One !important;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+color: black;
+line-height: 109.9%;
+}
+.aboutus-wrapper{
+    padding: 70px 25px;
+    
+}
+.about-bottom{
+    font-size: 45px;
+}
+@media only screen and (max-width:576px){
+    .aboutus-wrapper{
+        padding: 20px 10px;
+        
+    }
+    .about-us-main-heading{
+        font-size: 24px;
+    }
+    .aboutus-content{
+        color: grey;
+    }
+}

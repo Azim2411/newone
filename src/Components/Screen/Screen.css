@@ -1,0 +1,27 @@
+.screen-wrapper{
+    background-image: url("../../Assets/Images/screen.png");
+    width: 100%;
+    height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 20px;
+   
+}
+.screen-number{
+    font-family: Prosto One;
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: 91.4%;
+color: white;
+}
+.screen-content{
+    font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 400px;
+color: white;
+}

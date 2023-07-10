@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Prosto+One&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif !important;
+  box-sizing: border-box;
+  list-style: none;
+}
+.p-font{
+  font-family: 'Prosto One', cursive !important;
+}
+.n-font{
+  font-family: 'Nunito', sans-serif !important;
+}
+.red-color{
+  color: #C73546 !important;
+}
+.red-bg{
+  background-color: #C73546 !important;
+}
+.red-white-bg{
+  background-color: #FFF6F7 !important;
+}
+.br10{
+  border-radius: 10px !important;
+}
+.br5{
+  border-radius: 5px !important;
+}
+.pointer{
+  cursor: pointer !important;
+}
+.common-content{
+  font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.5;
+}
+body{
+  overflow-x: hidden;
+}
+.common-btn{
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-weight: 700 !important;
+  font-family: Prosto One !important;
+  /* margin-left: 100px; */
+  cursor: pointer;
+}
+
+@media only screen and (max-width:576px){
+  .common-content{
+    opacity: 1;
+    color:white;
+    font-size: 14px;
+    
+  }
+  .common-btn{
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 6px 12px;
+    border-radius: 100px;
+    font-weight: 700 !important;
+    font-family: Prosto One !important;
+    /* margin-left: 100px; */
+    cursor: pointer;
+  }
+}
